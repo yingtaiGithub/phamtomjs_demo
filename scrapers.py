@@ -7,7 +7,7 @@ def init_phantomjs_driver(*args, **kwargs):
     webdriver.DesiredCapabilities.PHANTOMJS['phantomjs.page.settings.userAgent'] = 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
 
     driver =  webdriver.PhantomJS(*args, **kwargs)
-    driver.set_window_size(1400, 1000)
+    # driver.set_window_size(1400, 1000)
 
     return driver
 
