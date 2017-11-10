@@ -1,0 +1,16 @@
+This project show how to run the phamtomJs script on GAE.
+
+1. Create the project in google cloud.
+2. Create the ubuntu instance.
+3. Connect to the instance with ssh terminal.
+4. Do the following command.
+    - sudo apt-get update
+    - sudo apt-get install git-core
+    - sudo apt-get install python-pip python-dev build-essential
+    - sudo apt-get install libfontconfig
+5. Clone the demo project and run the script.
+    - git clone https://github.com/yingtaiGithub/phamtomjs_demo/
+    - go into the project directory and then run the script; python scrapers.py
+
+    Note: The demo project go to the 'http://formyip.com' and take the screenshot of the page 'check.png'.
+6. Check whether the script works well with 'check.png'.
